@@ -98,7 +98,7 @@ def detection():
     cv2.destroyAllWindows()
 
 def initialize_bot(current_mood):
-    api_key = 'AIzaSyDCOQih0o6bZu_uSz4lWyOTP8d3ABEQis4'
+    api_key = 'YOUR_API_KEY'
     genai.configure(api_key = api_key)
     
     if current_mood=='Happy' or current_mood=='Surprise':
